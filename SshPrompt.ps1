@@ -47,6 +47,6 @@ if ($result -eq [System.Windows.Forms.DialogResult]::OK)
     $x = $listBox.SelectedItem
     switch($x)
     {
-        '[DEV Local]'   { ssh admfnds@127.0.0.1 -p 22 }
+        '[DEV Local]'   { ssh root@127.0.0.1 -p 22 }
     }
 }
